@@ -28,4 +28,3 @@ Sphinx==8.1.3
 streamlit==1.39.0
 thread==2.0.5
 urllib3_secure_extra==0.1.0
-xmlrpclib==1.0.1
