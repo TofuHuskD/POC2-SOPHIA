@@ -5,7 +5,6 @@ import openai
 import PyPDF2
 import sqlite3
 import hmac
-import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import OpenAIEmbeddings  # Updated Import
 from langchain_community.vectorstores import FAISS           # Updated Import
