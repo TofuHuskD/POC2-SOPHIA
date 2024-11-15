@@ -455,6 +455,7 @@ if st.session_state['documents_uploaded'] and st.session_state.get('vectorstore'
     5. Cite text in verbatim as far as possible
     6. In your output, retain the keywords and tone from the documents.
     7. If the output to the instructions cannot be derived from the knowledge base, strictly only reply “There is no relevant information, please only query about SOP related information”.
+    8. Remove duplicates if referencing from the same source 
     Documents: {context}
     
     Question: {question}
